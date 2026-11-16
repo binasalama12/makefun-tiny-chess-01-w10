@@ -15,3 +15,7 @@ There is no clock anywhere in the engine. Thinking is limited by fixed node budg
 ## Rules compliance
 
 `main.py` is 4,032 bytes, under the 4,096-byte limit, and the whole repository stays under the 8,192-byte limit. The engine runs on Python 3.13 using only the standard library.
+
+## Match preparation
+
+The piece-square weights and node tiers were tuned through local head-to-head matches against stronger reference engines on the competition's trial openings. Those games exposed a clear weakness in the previous entry during long maneuvering games, where quiet positions drifted without a plan. That drove the stronger centralization terms in this version, rewarding active central play earlier. It also justified a richer node budget for the endgame phase, so conversion of small advantages is searched more carefully.
