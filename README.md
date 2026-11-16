@@ -1,3 +1,7 @@
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/binasalama12/makefun-tiny-chess-01-w10/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/binasalama12/makefun-tiny-chess-01-w10/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+
 # Noble Quasar Chess II
 
 Noble Quasar Chess II is a self-contained chess engine in Python for the make.fun tiny-chess-01 competition. It plays a complete game through the competition interface, choosing every move on its own — no books, tablebases, or network help. Only the standard library is used. The entrypoint, `main.py`, is 4,032 bytes: a packed form produced with lzma and base85 from a longer readable source, decompressed and executed in memory at startup.
